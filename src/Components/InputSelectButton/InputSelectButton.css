@@ -1,0 +1,14 @@
+.inputSelectFlex {
+  width: 75%;
+  /*height: 90px;*/
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-around;
+  font-size: 14px;
+}
+
+.inputSelectHr {
+  margin-top: 15px;
+  border:1px solid #eee;
+}

@@ -1,0 +1,76 @@
+.header_right {
+  position: relative;
+}
+.header_right>div{
+  display:flex;
+  align-items:center;
+}
+.menu_list {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: -27px;
+  z-index: 99;
+  width: 105px;
+  border: 1px solid #eee;
+  background-color: #eee;
+}
+
+.menu_list_b {
+  display: block;
+}
+
+.menu_list_n {
+  display: none
+}
+
+.menu_list li {
+  border-bottom: 1px solid #eee;
+  list-style: none;
+  height: 35px;
+}
+
+.menu_list li a {
+  text-decoration: none;
+  color: #333;
+  display: table;
+  width: 100%;
+  height: 36px;
+  text-align: center;
+}
+
+.menu_list li a:hover {
+  background-color: #272829;
+  color: #ffffff;
+}
+
+.menu_list li a span {
+  display: table-cell;
+  vertical-align: middle;
+  width: 30%;
+  text-align: left;
+}
+
+.menu_list li a i {
+  display: table-cell;
+  vertical-align: middle;
+  width: 15%;
+  text-align: center;
+}
+
+.iconfont {
+  padding: 0px 5px;
+  font-size: 22px;
+}
+
+.icon-youxiang {
+  margin:0px 48px 0px 5px;
+  font-size: 32px;
+}
+.icon-shezhi{
+  font-size: 32px;
+}
+.mail {
+  text-decoration: none;
+  color: #ffffff;
+}
